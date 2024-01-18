@@ -1,4 +1,9 @@
-site_name: My Docs
+site_name: ZLDF的个人主页
 
 theme: 
   name: material
+
+nav:
+  - 主页: 'index.md'
+  - 杂项: 
+    - 搭建记录: 'building.md'
