@@ -75,3 +75,5 @@ extra_css:
 - 更换字体：主要根据[这个链接](https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#regular-font)。
   
 一个问题是字体依赖谷歌源，有时会被墙。网上给出的[换源方法](http://zongming.net/read-1426/)并不成功，原因是在对应html文件中找不到字体部分。
+
+- 导航栏：主要根据[这个链接](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion-with-expansion)

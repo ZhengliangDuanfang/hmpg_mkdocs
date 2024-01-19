@@ -6,6 +6,10 @@ theme:
   font:
     text: 'Noto Serif SC'
     code: 'Noto Sans Mono'
+
+  features:
+    - navigation.tabs
+
   palette: 
 
     # Palette toggle for light mode
