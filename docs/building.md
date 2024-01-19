@@ -77,3 +77,9 @@ extra_css:
 一个问题是字体依赖谷歌源，有时会被墙。网上给出的[换源方法](http://zongming.net/read-1426/)并不成功，原因是在对应html文件中找不到字体部分。
 
 - 导航栏：主要根据[这个链接](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion-with-expansion)
+
+- 更改icon：主要根据[这个链接](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
+
+- 添加信息栏：[这个链接](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+
+这个很好，但现在我有更要紧的事情要做：我要先看一部电影去。
