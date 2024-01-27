@@ -1,12 +1,20 @@
 # 搭建记录
 
-## 主要参考资料
+本页面使用MkDocs for Material搭建。
 
-[基础教程](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
+## 参考资料
+
+[基础教程](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)。另外，[这一页](https://squidfunk.github.io/mkdocs-material/reference/)也很重要。
 
 [MkDocs官方教程](https://www.mkdocs.org/user-guide/)
 
 进阶：[咸鱼暄前辈的搭建记录](https://xuan-insr.github.io/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/)
+
+[ZJU CS All In One](https://isshikihugh.github.io/zju-cs-asio/) 不会做总可以抄吧。
+
+## 常用技巧
+
+- 使用`mkdocs serve`命令，在 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 上实时预览。
 
 ## 搭建中的问题
 
@@ -97,3 +105,6 @@ extra_css:
     三个叹号，空格，关键字如note，空格，双引号内写标题，换行，两个`tab`，填写内容。
 ```
 注意编辑时不能使用Typora，它在换行时会连续换行两次。
+
+#### icon
+参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#using-icons)
