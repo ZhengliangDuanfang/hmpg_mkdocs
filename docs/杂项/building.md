@@ -1,10 +1,10 @@
 # 搭建记录
 
-本页面使用MkDocs for Material搭建。
+本页面使用Material for MkDocs搭建。
 
 ## 参考资料
 
-[基础教程](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)。另外，[这一页](https://squidfunk.github.io/mkdocs-material/reference/)也很重要。
+[Material for MkDocs基础教程](https://squidfunk.github.io/mkdocs-material/creating-your-site/)。另外，[这一页](https://squidfunk.github.io/mkdocs-material/reference/)也很重要。
 
 [MkDocs官方教程](https://www.mkdocs.org/user-guide/)
 
@@ -106,5 +106,5 @@ extra_css:
 ```
 注意编辑时不能使用Typora，它在换行时会连续换行两次。
 
-#### icon
+#### icon的使用方法
 参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#using-icons)
