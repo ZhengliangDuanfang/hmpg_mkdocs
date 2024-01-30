@@ -40,6 +40,7 @@ nav:
     - LaTeX笔记: '杂项/latex.md'
   - 兴趣:
     - 随想与摘抄: '兴趣/opinion.md'
+    - 译鲍照《从拜陵登京岘》诗: '兴趣/rclt.md'
 
 extra_css:
   - stylesheets/extra.css
@@ -48,6 +49,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - footnotes
 
 extra:
   # generator: false

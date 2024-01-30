@@ -108,3 +108,9 @@ extra_css:
 
 #### icon的使用方法
 参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#using-icons)
+
+#### 添加脚注
+参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
+
+
+
