@@ -9,8 +9,9 @@ theme:
     text: 'Noto Serif SC'
     code: 'Noto Sans Mono'
 
-  logo: 'img/icon.png'
-  favicon: 'img/icon.png'
+  # logo: 'img/icon.png'
+  logo: 'img/logo-v0.2.svg'
+  favicon: 'img/logo-v0.2.svg'
 
   features:
     - navigation.tabs
