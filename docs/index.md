@@ -4,7 +4,7 @@
     <div style="text-align: center; font-size:20px"  markdown="1">
     年年。如社燕，飄流瀚海，來寄修椽。
     </div><div style="text-align: right; font-size:14px"  markdown="1">
-    ——《滿庭芳》，周邦彦
+    ——《滿庭芳》，周邦彥
     </div>
 
 !!! info "说明"
