@@ -41,6 +41,7 @@ nav:
   - 杂项: 
     - 搭建记录: '杂项/building.md'
     - LaTeX笔记: '杂项/latex.md'
+    - 使用RustDesk和自建服务器实现远程桌面控制: '杂项/rustdesk.md'
   - 兴趣:
     - 随想与摘抄: '兴趣/opinion.md'
     - 译鲍照《从拜陵登京岘》诗: '兴趣/rclt.md'
@@ -54,6 +55,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 
 extra:
   # generator: false

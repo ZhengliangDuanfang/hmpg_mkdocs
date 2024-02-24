@@ -112,5 +112,6 @@ extra_css:
 #### 添加脚注
 参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
 
-
+#### 添加代码块（尚未实践）
+参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 
