@@ -39,6 +39,7 @@ nav:
     - 说明: '本科课程/index.md'
     - ZJU大物实验课程资源目录: '本科课程/phylab-navigator.md' 
   - 杂项: 
+    - 不成篇杂项: '杂项/others.md'
     - 搭建记录: '杂项/building.md'
     - LaTeX笔记: '杂项/latex.md'
     - 使用RustDesk和自建服务器实现远程桌面控制: '杂项/rustdesk.md'

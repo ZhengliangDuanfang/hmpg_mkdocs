@@ -115,3 +115,6 @@ extra_css:
 #### 添加代码块（尚未实践）
 参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 
+#### 在VSCode中编辑MarkDown时预览信息栏：
+安装了一个名称为「Markdown Extended」的插件。
+
