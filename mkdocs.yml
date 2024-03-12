@@ -38,6 +38,7 @@ nav:
   - 本科课程: 
     - 说明: '本科课程/index.md'
     - ZJU大物实验课程资源目录: '本科课程/phylab-navigator.md' 
+    - SRTP笔记: '本科课程/SRTPnote.md'
   - 杂项: 
     - 不成篇杂项: '杂项/others.md'
     - 搭建记录: '杂项/building.md'

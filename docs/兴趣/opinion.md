@@ -25,3 +25,16 @@
     <div style="text-align: right; font-size:14px"  markdown="1">
     ——《過秦樓》，周邦彥
     </div>
+
+!!! warning ""
+雁足無書古塞幽,一程菸草一程愁。帽檐塵重風吹野，帳角香銷月滿樓。
+情思亂，夢魂浮。緗裙多憶敝貂裘。官河水靜闌干暖，徙倚斜陽怨晚秋。
+	<div style="text-align: right; font-size:14px"  markdown="1">
+    ——《鷓鴣天》，史達祖
+    </div>
+    
+!!! warning ""
+搖盪春風媚春日，念爾零落逐風飈，徒有霜華無霜質。
+	<div style="text-align: right; font-size:14px"  markdown="1">
+    ——《梅花落》，鮑照
+    </div>
