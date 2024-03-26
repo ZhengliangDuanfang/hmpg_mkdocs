@@ -4,6 +4,7 @@ repo_name: hmpg_mkdocs
 
 theme: 
   name: material
+  custom_dir: custom_theme/
 
   font:
     text: 'Noto Serif SC'
