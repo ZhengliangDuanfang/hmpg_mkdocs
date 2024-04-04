@@ -147,7 +147,19 @@
 
 ### 公式
 
-https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf
+符号列表可以参考：[https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf](https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf)
+
+引用公式块可采用如下两种方法，注意星号表示取消编号。
+
+```latex
+行内：$a^2+b^2=c^2$
+多行：
+\begin{equation *}
+	a^2+b^2=c^2
+\end{equation}
+```
+
+
 
 
 
