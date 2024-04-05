@@ -16,7 +16,7 @@
     <div style="text-align: center; font-size:16px"  markdown="1">
     希望将这个网站作为自己的便携式笔记本，我随便记，诸君随便看。
     
-    如果纯粹是随便看，可以直接去 [兴趣](https://zhengliangduanfang.github.io/hmpg_mkdocs/%E5%85%B4%E8%B6%A3/opinion/) 那里。
+    如果纯粹是随便看，可以直接去 [兴趣](https://zhengliangduanfang.github.io/hmpg_mkdocs/hobby/opinion/) 那里。
     </div>
 
 ## 联系方式
