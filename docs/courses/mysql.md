@@ -71,7 +71,7 @@ show schemas;
 ```
 
 #### 进入数据库
-    
+
 ```SQL
 use <名称>;
 ```
@@ -100,4 +100,10 @@ begin
 end; $$
 delimiter ;
 ```
+
+## MySQL 模糊查找
+
+使用`SOUNDEX(string)`函数。
+
+请参考 [https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_soundex](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_soundex)
 

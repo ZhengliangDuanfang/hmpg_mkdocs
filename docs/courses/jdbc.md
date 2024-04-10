@@ -70,6 +70,12 @@ pStmt.setString (1, "88878");
 pStmt.executeUpdate();
 ```
 
+更多可以参见官方手册：[https://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html](https://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html)
+
+在该SQL语句中，可以以`instructor(one, two, three, four)`的形式指定被赋值的对象。
+
+条件为null的解决办法：[https://stackoverflow.com/questions/73455600/how-can-i-modify-the-code-to-avoid-sql-injection-attack](https://stackoverflow.com/questions/73455600/how-can-i-modify-the-code-to-avoid-sql-injection-attack)
+
 #### 6.ResultSet接口
 
 ResultSet接口用于保存JDBC执行查询时返回的结果集，该结果集封装在一个逻辑表格中。在ResultSet接口内部有一个指向表格数据行的游标(或指针)，ResultSet对象初始化时，游标在表格第一行之前，调用next()方法可以将游标移动到下一行。如果下一行没有数据，则返回false。在应用程序中经常使用next()方法作为while循环的条件来迭代ResultSet结果集。
@@ -79,7 +85,7 @@ ResultSet接口的常用方法如下表。
 | 方法名称                            | 功能描述                                                     |
 | ----------------------------------- | ------------------------------------------------------------ |
 | String getString(int columnIndex)   | 用于获取指定字段的String类型的值，参数columnIndex代表字段的索引。 |
-| String getString(String columnNmae) | 用于获取指定字段的String类型的值，参数columnIndex代表字段的索引。 |
+| String getString(String columnName) | 用于获取指定字段的String类型的值，参数columnIndex代表字段的索引。 |
 | int getInt(int columnIndex)         | 用于获取指定字段的int类型的值，参数columnIndex代表字段的索引。 |
 | int getInt(String columnName)       | 用于获取指定字段的int类型的值，参数columnName代表字段的名称。 |
 | boolean next()                      | 将游标从当前位置向下移一行。                                 |
