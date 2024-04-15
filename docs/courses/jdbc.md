@@ -90,3 +90,14 @@ ResultSet接口的常用方法如下表。
 | int getInt(String columnName)       | 用于获取指定字段的int类型的值，参数columnName代表字段的名称。 |
 | boolean next()                      | 将游标从当前位置向下移一行。                                 |
 
+## 前后端联合备忘录
+
+后端调试工具介绍：[https://blog.csdn.net/sandalphon4869/article/details/105490825](https://blog.csdn.net/sandalphon4869/article/details/105490825)
+
+Java最基础的HTTP服务器：[https://blog.csdn.net/allway2/article/details/117414723](https://blog.csdn.net/allway2/article/details/117414723)
+
+Java try-catch 与 throw：[https://blog.csdn.net/Sundy_sc/article/details/101106847](https://blog.csdn.net/Sundy_sc/article/details/101106847)
+
+StringBuilder介绍：
+
+[https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/](https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/)

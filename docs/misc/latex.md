@@ -3,7 +3,7 @@
 安装和VSCode配置参考了 [【TeXLive+VSCode LaTeX中文环境配置教程】](https://www.bilibili.com/video/BV1Gt4y117VD?vd_source=fb70993df833421086ba8589f9bd3ed1) 和视频中推荐的[知乎文章](https://zhuanlan.zhihu.com/p/38178015)。
 
 !!! info "说明"
-    从别处整理而来。只放来源链接。以下内容均采用XeLaTeX编译。
+    以下内容均采用XeLaTeX编译。
 
 ### 最基础内容
 
@@ -70,13 +70,18 @@
 \verb|Your Code Here|
 ```
 
-### 取消页眉页脚
+### 页眉页脚
 
 导言区
 
 ```latex
 \pagestyle{empty}%取消页眉页脚
+\pagestylr{plain} %无页眉，页脚为居中页码
 ```
+
+参见[这里](https://www.latexstudio.net/archives/7985.html)
+
+如果想要更复杂的效果，可以采用`fancyhdr` 宏包
 
 ### 小节标题靠左
 
@@ -159,9 +164,13 @@
 \end{equation}
 ```
 
+### 表格：Excel2LaTeX插件
 
+[Excel2LaTeX插件](https://blog.csdn.net/qq_16763983/article/details/122912373)
 
+[表线与单元格距离太近](https://www.zhihu.com/question/288695777/answer/3156283040)
 
+[表格内文字换行](https://blog.csdn.net/weixin_47062807/article/details/127702779)
 
 
 

@@ -1,8 +1,10 @@
 ## 百度网盘下载加速
 
-[https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4](https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4)
+~~[https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4](https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4)~~
 
-[https://www.youxiaohou.com/zh-cn/windows.html](https://www.youxiaohou.com/zh-cn/windows.html)
+~~[https://www.youxiaohou.com/zh-cn/windows.html](https://www.youxiaohou.com/zh-cn/windows.html)~~
+
+目前均不推荐
 
 ## Solidworks下载
 
