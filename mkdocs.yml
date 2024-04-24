@@ -42,6 +42,7 @@ nav:
     - SRTP笔记: 'courses/SRTPnote.md'
     - MySQL笔记: 'courses/mysql.md'
     - JDBC笔记: 'courses/jdbc.md'
+    - RISC-V递归的两种实现: 'courses/cod2_16.md'
   - 杂项: 
     - 不成篇杂项: 'misc/others.md'
     - 搭建记录: 'misc/building.md'

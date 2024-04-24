@@ -101,3 +101,7 @@ Java try-catch 与 throw：[https://blog.csdn.net/Sundy_sc/article/details/10110
 StringBuilder介绍：
 
 [https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/](https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/)
+
+HttpServer获取GET请求的查询字符串：[https://segmentfault.com/q/1010000042924496](https://segmentfault.com/q/1010000042924496)
+
+并发访问控制：[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read) 以及 [https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_locking_read](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_locking_read)

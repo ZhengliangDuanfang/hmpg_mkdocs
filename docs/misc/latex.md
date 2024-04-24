@@ -76,7 +76,7 @@
 
 ```latex
 \pagestyle{empty}%取消页眉页脚
-\pagestylr{plain} %无页眉，页脚为居中页码
+\pagestyle{plain} %无页眉，页脚为居中页码
 ```
 
 参见[这里](https://www.latexstudio.net/archives/7985.html)
@@ -162,6 +162,14 @@
 \begin{equation *}
 	a^2+b^2=c^2
 \end{equation}
+```
+
+多行公式对齐：
+```latex
+\begin{align}
+	A &= B \\
+	&=C
+\end{align}
 ```
 
 ### 表格：Excel2LaTeX插件
