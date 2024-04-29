@@ -40,9 +40,11 @@ nav:
     - 说明: 'courses/index.md'
     - ZJU大物实验课程资源目录: 'courses/phylab-navigator.md' 
     - SRTP笔记: 'courses/SRTPnote.md'
-    - MySQL笔记: 'courses/mysql.md'
-    - JDBC笔记: 'courses/jdbc.md'
     - RISC-V递归的两种实现: 'courses/cod2_16.md'
+    - 数据库系统笔记: 
+      - MySQL笔记: 'courses/mysql.md'
+      - JDBC笔记: 'courses/jdbc.md'
+      - 范式与范化笔记: 'courses/norm.md'
   - 杂项: 
     - 不成篇杂项: 'misc/others.md'
     - 搭建记录: 'misc/building.md'
@@ -53,8 +55,7 @@ nav:
     - 译鲍照《从拜陵登京岘》诗: 'hobby/rclt.md'
     - 清真年表: 'hobby/zby_chrono.md'
 
-extra_css:
-  - stylesheets/extra.css
+
 
 markdown_extensions:
   - admonition
@@ -67,6 +68,8 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
   # generator: false
@@ -75,3 +78,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ZhengliangDuanfang
       name: My GitHub
+
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - stylesheets/extra.css

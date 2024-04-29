@@ -118,3 +118,5 @@ extra_css:
 #### 在VSCode中编辑MarkDown时预览信息栏：
 安装了一个名称为「Markdown Extended」的插件。
 
+#### 添加公式
+参考 [这里](https://squidfunk.github.io/mkdocs-material/reference/math/#katex)
