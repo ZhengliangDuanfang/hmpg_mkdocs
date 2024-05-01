@@ -1,11 +1,3 @@
-## 百度网盘下载加速
-
-~~[https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4](https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4)~~
-
-~~[https://www.youxiaohou.com/zh-cn/windows.html](https://www.youxiaohou.com/zh-cn/windows.html)~~
-
-目前均不推荐
-
 ## Solidworks下载
 
 [https://getintopc.com/softwares/solidworks-2022-free-download-6999973/?id=001996334662](https://getintopc.com/softwares/solidworks-2022-free-download-6999973/?id=001996334662)
@@ -22,7 +14,18 @@
 
 VSCode：[https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visualstudio.com/docs/cpp/config-mingw)
 
+## GDB
+
+https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
+
 ## Minecraft
 
 从[这个地方](https://www.mcnav.net/)找到了PCL2，Java是按引导自动下的。其实最开始用的是HMCL，但是似乎由于MCBBS那里发生了一些事情无法下载，才转战的。
 
+## 百度网盘下载加速
+
+~~[https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4](https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4)~~
+
+~~[https://www.youxiaohou.com/zh-cn/windows.html](https://www.youxiaohou.com/zh-cn/windows.html)~~
+
+目前均不推荐
