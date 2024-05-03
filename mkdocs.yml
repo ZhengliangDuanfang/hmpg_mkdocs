@@ -11,8 +11,10 @@ theme:
     code: 'Noto Sans Mono'
 
   # logo: 'img/icon.png'
-  logo: 'img/logo-v0.2.svg'
-  favicon: 'img/logo-v0.2.svg'
+  # logo: 'img/logo-v0.2.svg'
+  # favicon: 'img/logo-v0.2.svg'
+  logo: 'img/logo-v1.0.png'
+  favicon: 'img/logo-v1.0.png'
 
   features:
     - navigation.tabs
