@@ -16,11 +16,15 @@ VSCode：[https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visu
 
 ## GDB
 
-https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
+[https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf](https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf)
 
 ## Minecraft
 
 从[这个地方](https://www.mcnav.net/)找到了PCL2，Java是按引导自动下的。其实最开始用的是HMCL，但是似乎由于MCBBS那里发生了一些事情无法下载，才转战的。
+
+## GitHub 下载部分文件夹
+
+[https://blog.csdn.net/m0_72224305/article/details/127567759](https://blog.csdn.net/m0_72224305/article/details/127567759)
 
 ## 百度网盘下载加速
 

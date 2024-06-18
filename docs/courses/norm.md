@@ -66,7 +66,7 @@
 一种避免计算$F^+$的验证依赖保持的方法：
 
 - 初始时刻$result=\alpha$
-- 不断重复以下过程：对于每个$R_i$，$t=(result\cap R_i)^+\cap R_i$，$result=result\cup t$。
+- 不断重复以下过程：对于每个$R_i$，$t=(result\cap R_i)^+\cap R_i$，$result=result\cup t$。（这里计算闭包使用的是整个$F$）
 - 当$result$没有变化时，如果$result$包含$\beta$中的所有属性，则$\alpha\rightarrow\beta$得到保持。
 
 这个不断重复的过程其实相当于计算$F_i$下的$result$闭包，对每个$R_i$进行重复后得到$F'$下的$result$闭包。
@@ -77,13 +77,13 @@
 
 无关属性的判定：对于一个函数依赖$\alpha\rightarrow\beta$，
 
-如果$A\in \alpha$且根据$F$可以推出$(F-\{\alpha\rightarrow\beta\})\cup\{(\alpha-A)\rightarrow\beta\}$，则认为A是无关属性；如果$A\in \beta$且根据$(F-\{\alpha\rightarrow\beta\})\cup\{(\alpha-A)\rightarrow\beta\}$可以推出$F$，则认为A是无关属性。
+如果$A\in \alpha$且根据$F$可以推出$(F-\{\alpha\rightarrow\beta\})\cup\{(\alpha-A)\rightarrow\beta\}$，则认为A是无关属性；如果$A\in \beta$且根据$(F-\{\alpha\rightarrow\beta\})\cup\{\alpha\rightarrow(\beta-A)\}$可以推出$F$，则认为A是无关属性。
 
 上面这个“可以推出”判断起来比较复杂，可以通过判断“属性的闭包是否包含新属性”来代替。
 
 检验$A\in \alpha$是否是无关属性：只需检查$(\alpha-A)\rightarrow\beta$是否可以从$F$中推断出（成立）即可。使用$F$计算$(\alpha-A)^+$，如果$\beta\subset (\alpha-A)^+$则得证。
 
-检验$A\in \beta$是否是无关属性：只需检查从$\beta$中去除A之后还能否推出$\alpha\rightarrow A$。使用$F'=(F-\{\alpha\rightarrow\beta\})\cup\{(\alpha-A)\rightarrow\beta\}$计算$\alpha$的新闭包$\alpha^+$，如果$A\in \alpha^+$则得证。
+检验$A\in \beta$是否是无关属性：只需检查从$\beta$中去除A之后还能否推出$\alpha\rightarrow A$。使用$F'=(F-\{\alpha\rightarrow\beta\})\cup\{\alpha\rightarrow(\beta-A)\}$计算$\alpha$的新闭包$\alpha^+$，如果$A\in \alpha^+$则得证。
 
 #### 正则覆盖
 
