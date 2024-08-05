@@ -172,6 +172,10 @@
 \end{align}
 ```
 
+### 图片转公式
+
+[https://simpletex.cn/](https://simpletex.cn/)
+
 ### 表格：Excel2LaTeX插件
 
 [Excel2LaTeX插件](https://blog.csdn.net/qq_16763983/article/details/122912373)

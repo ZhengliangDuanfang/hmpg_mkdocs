@@ -372,3 +372,10 @@
 
 《咸淳臨安志》卷六十「古今人表」：「周邦彥，邠之姪。周邦彥因守四明，其後家焉。」又卷八十七冢墓：「周待制邦彥墓，並在南蕩山（上爲周都尉邠墓，故曰並），子孫今居定山之北鄉。」定山見同書卷八云：「定山，舊圖經云，在錢塘舊治之西南四十七里一百四十七步，高七十五丈，周迴七里一百二步。」
 
+## 附录
+
+目前找到的网页版的周邦彦词全集：
+
+简体：[https://www.guxuo.com/mj/z/zby/cj/index.htm](https://www.guxuo.com/mj/z/zby/cj/index.htm)
+
+繁体：[https://ourartnet.com/Sikuquanshu/Zhuanti/Shici/014.asp](https://ourartnet.com/Sikuquanshu/Zhuanti/Shici/014.asp)
