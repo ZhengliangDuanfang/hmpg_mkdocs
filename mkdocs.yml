@@ -51,6 +51,7 @@ nav:
     - 不成篇杂项: 'misc/others.md'
     - 搭建记录: 'misc/building.md'
     - LaTeX笔记: 'misc/latex.md'
+    - Linux笔记: 'misc/linux.md'
     - 使用RustDesk和自建服务器实现远程桌面控制: 'misc/rustdesk.md'
   - 兴趣:
     - 随想与摘抄: 'hobby/opinion.md'

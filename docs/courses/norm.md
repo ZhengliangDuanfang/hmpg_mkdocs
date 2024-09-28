@@ -176,17 +176,7 @@ BCNF分解算法：
 ## 多值依赖
 多值依赖：将$R$的属性分为$\alpha$，$\beta$和$R-\alpha-\beta$三部分，如果对于任意一对元组$t_1和t_2$，存在$t_3和t_4$满足：
 
-$$
-t_1[\alpha]=t_2[\alpha]=t_3[\alpha]=t_4[\alpha]\\
-
-t_1[\beta]=t_3[\beta]\\
-
-t_2[\beta]=t_4[\beta]\\
-
-t_1[R-\alpha-\beta]=t_4[R-\alpha-\beta]\\
-
-t_2[R-\alpha-\beta]=t_3[R-\alpha-\beta]\\
-$$
+![norm-1](img/norm-1.svg)
 
 则认为$\alpha\rightarrow\rightarrow\beta$，同时有$\alpha\rightarrow\rightarrow R-\alpha-\beta$。
 

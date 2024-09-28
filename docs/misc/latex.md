@@ -174,9 +174,17 @@
 
 ### 图片转公式
 
-[https://simpletex.cn/](https://simpletex.cn/)
+免费但需要复杂的注册：[https://simpletex.cn/](https://simpletex.cn/)
 
-### 表格：Excel2LaTeX插件
+### 公式转图片
+
+这个公式转图片方式看起来还可以：[https://www.latexlive.com/](https://www.latexlive.com/)
+
+### 表格
+
+这个网站待尝试：[https://tablesgenerator.com/](https://tablesgenerator.com/)
+
+#### Excel2LaTeX插件
 
 [Excel2LaTeX插件](https://blog.csdn.net/qq_16763983/article/details/122912373)
 
