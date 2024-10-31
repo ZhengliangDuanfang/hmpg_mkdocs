@@ -1,4 +1,4 @@
-# 搭建记录
+# 本站搭建记录
 
 本页面使用Material for MkDocs搭建。
 

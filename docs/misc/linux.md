@@ -28,3 +28,10 @@
 rsync -avz --progress -e "ssh -i /path/to/key/key.pem" /origin/dir/ <用户名>@<公ip>:/destination/dir/
 ```
 
+## zip与unzip
+
+压缩单个文件：`zip <压缩后的文件名> <要压缩的文件名>`，如`zip test.zip test.txt`
+
+压缩整个目录：`zip -r <压缩后的文件名> <要压缩的目录名>`
+
+解压缩到特定目录：`unzip <压缩文件名> -d <目标目录>`，如`unzip test.zip -d /path/to/destination`

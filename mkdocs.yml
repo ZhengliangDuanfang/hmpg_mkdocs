@@ -10,11 +10,8 @@ theme:
     text: 'Noto Serif SC'
     code: 'Noto Sans Mono'
 
-  # logo: 'img/icon.png'
-  # logo: 'img/logo-v0.2.svg'
-  # favicon: 'img/logo-v0.2.svg'
-  logo: 'img/logo-v1.0.png'
-  favicon: 'img/logo-v1.0.png'
+  logo: 'img/logo-v2.2.png'
+  favicon: 'img/logo-v2.2.png'
 
   features:
     - navigation.tabs
@@ -48,11 +45,12 @@ nav:
       - JDBC笔记: 'courses/jdbc.md'
       - 范式与范化笔记: 'courses/norm.md'
   - 杂项: 
-    - 不成篇杂项: 'misc/others.md'
-    - 搭建记录: 'misc/building.md'
+    - 本站搭建记录: 'misc/building.md'
+    - 工作流记录：'misc/workflow.md'
     - LaTeX笔记: 'misc/latex.md'
     - Linux笔记: 'misc/linux.md'
     - 使用RustDesk和自建服务器实现远程桌面控制: 'misc/rustdesk.md'
+    - 不成篇杂项: 'misc/others.md'
   - 兴趣:
     - 随想与摘抄: 'hobby/opinion.md'
     - 译鲍照《从拜陵登京岘》诗: 'hobby/rclt.md'
