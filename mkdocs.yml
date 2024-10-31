@@ -46,7 +46,7 @@ nav:
       - 范式与范化笔记: 'courses/norm.md'
   - 杂项: 
     - 本站搭建记录: 'misc/building.md'
-    - 工作流记录：'misc/workflow.md'
+    - 工作流记录: 'misc/workflow.md'
     - LaTeX笔记: 'misc/latex.md'
     - Linux笔记: 'misc/linux.md'
     - 使用RustDesk和自建服务器实现远程桌面控制: 'misc/rustdesk.md'

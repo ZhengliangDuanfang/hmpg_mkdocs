@@ -62,14 +62,14 @@
 
 ## 不常用的软件
 
-### Solidworks下载
+### Solidworks
 
 [https://getintopc.com/softwares/solidworks-2022-free-download-6999973/?id=001996334662](https://getintopc.com/softwares/solidworks-2022-free-download-6999973/?id=001996334662)
 
-### Minecraft下载
+### Minecraft
 
 从[这个地方](https://www.mcnav.net/)找到了PCL2，Java是按引导自动下的。其实最开始用的是HMCL，但是似乎由于MCBBS那里发生了一些事情无法下载，才转战的。
 
-### 植物大战僵尸下载
+### 植物大战僵尸
 
 [http://lonelystar.org/download.htm](http://lonelystar.org/download.htm) 似乎只能用HTTP访问，不支持HTTPS。
