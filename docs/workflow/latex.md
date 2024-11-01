@@ -1,5 +1,8 @@
 # LaTeX 笔记
 
+!!! TODO
+	好久没折腾LaTeX了，以后找机会一定重新学一下。
+
 安装和VSCode配置参考了 [【TeXLive+VSCode LaTeX中文环境配置教程】](https://www.bilibili.com/video/BV1Gt4y117VD?vd_source=fb70993df833421086ba8589f9bd3ed1) 和视频中推荐的[知乎文章](https://zhuanlan.zhihu.com/p/38178015)。
 
 !!! info "说明"

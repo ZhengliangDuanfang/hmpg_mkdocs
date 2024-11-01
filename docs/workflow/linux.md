@@ -35,3 +35,13 @@ rsync -avz --progress -e "ssh -i /path/to/key/key.pem" /origin/dir/ <用户名>@
 压缩整个目录：`zip -r <压缩后的文件名> <要压缩的目录名>`
 
 解压缩到特定目录：`unzip <压缩文件名> -d <目标目录>`，如`unzip test.zip -d /path/to/destination`
+
+## 复制、移动、重命名
+
+复制：`cp <源文件或目录> <目标目录>`，如`cp test.txt /path/to/destination`
+
+复制整个目录：`cp -r <源目录> <目标目录>`
+
+移动：`mv <源文件或目录> <目标目录>`，如`mv test.txt /path/to/destination`
+
+重命名：`mv <源文件或目录> <目标文件或目录>`，如`mv test.txt test2.txt`

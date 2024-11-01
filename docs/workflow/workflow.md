@@ -1,6 +1,6 @@
 # 工作流记录
 
-!!! failure 
+!!! TODO
     本文档尚未完成。
 
 目前使用的操作系统是 Windows 11 专业版，以及附带的WSL2 Ubuntu 22.04。
@@ -58,6 +58,7 @@
 - uTorrent：做种
 - Geek Uninstaller：卸载软件
 - Everything：文件搜索
+- WinMerge：文本比较
 - 语雀：笔记
 
 ## 不常用的软件
