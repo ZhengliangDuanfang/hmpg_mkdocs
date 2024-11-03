@@ -47,6 +47,7 @@ nav:
   - 工作流:
     - 工作流记录: 'workflow/workflow.md'
     - Linux笔记: 'workflow/linux.md' 
+    - Docker笔记: 'workflow/docker.md'
     - Git笔记: 'workflow/git.md'
     - LaTeX笔记: 'workflow/latex.md'
   - 杂项: 

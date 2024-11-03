@@ -45,3 +45,8 @@ rsync -avz --progress -e "ssh -i /path/to/key/key.pem" /origin/dir/ <用户名>@
 移动：`mv <源文件或目录> <目标目录>`，如`mv test.txt /path/to/destination`
 
 重命名：`mv <源文件或目录> <目标文件或目录>`，如`mv test.txt test2.txt`
+
+## tmux
+
+!!! TODO
+    [https://www.ruanyifeng.com/blog/2019/10/tmux.html](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
