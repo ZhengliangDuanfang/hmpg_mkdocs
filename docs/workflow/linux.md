@@ -4,13 +4,19 @@
 
 ## SSH连接服务器
 
+### 使用密钥
+
 在终端（我用的是Windows 11上的PowerShell）输入指令以连接服务器：
 
-`ssh <服务器默认用户名，我设为root>@<公ip> -i <密钥对的地址>`
+`ssh <用户名，如root>@<公ip> -i <密钥对的地址>`
 
 然后报错，告诉我`Permissions for ‘xxx‘ are too open.`
 
 解决办法参见了CSDN上 [这个博客](https://blog.csdn.net/u010571709/article/details/121990664) ，这个博客中未予以指示的步骤均点击`确定`即可。
+
+### 使用密码
+
+`ssh <用户名>@<公ip> -p <端口号> -P <密码>`
 
 ## 在服务器上创建新用户
 
