@@ -111,7 +111,7 @@ docker run -it -v <original data path>:<dest data path> \
 
 在Lab1及以后，可以通过`make debug`在Docker中调试。具体流程如下：
 
-1. 在当前项目目录中执行`make dubug`
+1. 在当前项目目录中执行`make debug`
 
 2. 远程调试
 ```shell

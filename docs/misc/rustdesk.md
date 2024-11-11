@@ -1,4 +1,5 @@
-注：此方法已因RustDesk在中国地区停止服务而失效。
+!!! warning
+    注：此方法已因RustDesk在中国地区停止服务而失效。
 
 参考：[https://www.oschina.net/news/291123](https://www.oschina.net/news/291123)
 

@@ -1,8 +1,10 @@
 羅忼烈
 
-由[本人](https://github.com/ZhengliangDuanfang)整理自羅忼烈箋注的《清真集箋注》，上海古籍出版社2008年11月第1版，來自Z-Library。使用Adobe Acrobat的OCR功能輔助整理。
+!!! info
+    由[本人](https://github.com/ZhengliangDuanfang)整理自羅忼烈箋注的《清真集箋注》，上海古籍出版社2008年11月第1版，來自Z-Library。使用Adobe Acrobat的OCR功能輔助整理。
 
-整理者注：「清真」者，宋詞人**周邦彥**之號也。
+!!! note
+    整理者注：「清真」者，宋詞人**周邦彥**之號也。
 
 **宋仁宗至和三年嘉祐元年丙申（公元一〇五六年）一歲**
 
