@@ -54,5 +54,14 @@ rsync -avz --progress -e "ssh -i /path/to/key/key.pem" /origin/dir/ <用户名>@
 
 ## tmux
 
-!!! TODO
-    [https://www.ruanyifeng.com/blog/2019/10/tmux.html](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+tmux用于将session与命令行界面分离，使得我们在退出命令行之后，程序能继续在后台运行。详见 [https://www.ruanyifeng.com/blog/2019/10/tmux.html](https://www.ruanyifeng.com/blog/2019/10/tmux.html)，此处描述最简单的操作。
+
+新建一个会话：`tmux new -s <会话名>`
+
+列出当前机器上运行的所有会话：`tmux ls`
+
+进入会话：`tmux attach -t <会话名>`
+
+退出会话，但会话中未完成的指令在后台继续运行：Windows按`Ctrl+b d`
+
+删除会话：`tmux kill-session -t <会话名>`

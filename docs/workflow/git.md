@@ -14,7 +14,7 @@
 - `git checkout <branch-name>` 切换分支
 - `git checkout -b <branch-name>` 创建并切换分支
 
-- `git merge <branch-name>` 与其他分支合并
+- `git merge <branch-name>` 将其他分支合并进当前分支
 - `git branch -d <branch-name>` 删除分支
 
 ### 查看历史
@@ -22,6 +22,10 @@
 - `git log` 查看提交历史
 - `git log --oneline` 查看简洁的提交历史
 - `git log --graph --oneline --decorate` 查看分支合并情况
+
+### 回退
+
+- `git reset --hard <commit-id>` 回退到`commit-id`对应的版本，添加到暂存区但是没有提交到本地仓库的内容以及没有存入暂存区的内容全部彻底消失。`commit-id`可以用`git log`相关指令查看。
 
 ## 远程仓库
 
@@ -41,6 +45,10 @@
   - 第一次推送，需要加上`-u`参数，即`git push -u <origin-name> <branch-name>`
   - 如果想要本地与远程分支名称不同，可以`git push <remote> <local-branch>:<remote-branch>`
 
-- `git pull <origin-name> <branch-name>` 拉取远程仓库到本地
+- `git pull <origin-name> <branch-name>` 拉取远程分支到本地
 - `git fetch <origin-name> <branch-name>` 从远程仓库拉取最新的分支，但不合并
   
+### deploy key
+
+!!! TODO
+    [https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys)
