@@ -22,7 +22,7 @@
 
 ### 插件清单
 
-- [Vimnium](https://vimium.github.io/) 浏览器的Vim插件
+- [Vimium](https://vimium.github.io/) 浏览器的Vim插件
 - [GitZip for GitHub](https://gitzip.org/) 下载GitHub仓库中的部分内容
 - [沉浸式翻译](https://immersivetranslate.com/zh-Hans/)
 
@@ -34,27 +34,25 @@
 
 [https://github.com/Delppine1024/TGreen/blob/master/README-CN.md](https://github.com/Delppine1024/TGreen/blob/master/README-CN.md) 
 
-使用方法：替换`{Install_Location}/resources/app.asar`。
-
-对于1.7.6版本，可以看本站的`docs/assets`目录的「asar」开头的文件。
+- 使用方法：替换`{Install_Location}/resources/app.asar`。
+  - 对于1.7.6版本，可以查看[本站备份](../assets/asar-v1.7.6-windows-x64.zip)。
+- 为图片指定自动存储路径：文件->偏好设置->图像->插入图片时
 
 ## PDF相关
 
-### ABBYY
-
-用于竖排文字识别。
-
-[https://www.cc98.org/topic/5360319](https://www.cc98.org/topic/5360319) 或者 [https://pan.baidu.com/s/1vvk_h9mN04oMxNjNojs0qQ](https://pan.baidu.com/s/1vvk_h9mN04oMxNjNojs0qQ) 密码 1111
-
-### SumatraPDF
-
-[https://www.sumatrapdfreader.org/free-pdf-reader](https://www.sumatrapdfreader.org/free-pdf-reader)
+- ABBYY：用于竖排文字识别。
+  - [https://www.cc98.org/topic/5360319](https://www.cc98.org/topic/5360319)
+  - [https://pan.baidu.com/s/1vvk_h9mN04oMxNjNojs0qQ](https://pan.baidu.com/s/1vvk_h9mN04oMxNjNojs0qQ) 密码 1111
+- SumatraPDF：PDF阅读器
+  - [https://www.sumatrapdfreader.org/free-pdf-reader](https://www.sumatrapdfreader.org/free-pdf-reader)
+- pdfarranger：PDF编辑器
+  - [https://github.com/pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger)
 
 ## 其他
 
 - 7-Zip：解压
 - FileZilla Client：FTP客户端
-- PotPlayer：播放器
+- [PotPlayer](https://potplayer.daum.net/)：播放器
 - uTorrent：做种
 - Geek Uninstaller：卸载软件
 - Everything：文件搜索

@@ -45,7 +45,7 @@ nav:
       - JDBC笔记: 'courses/jdbc.md'
       - 范式与范化笔记: 'courses/norm.md'
   - 工作流:
-    - 工作流记录: 'workflow/workflow.md'
+    - 工作流记录: 'workflow/index.md'
     - Linux笔记: 'workflow/linux.md' 
     - Docker笔记: 'workflow/docker.md'
     - Git笔记: 'workflow/git.md'
