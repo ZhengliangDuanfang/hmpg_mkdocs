@@ -107,6 +107,12 @@ docker run -it -v <original data path>:<dest data path> \
 - 删除容器：`docker rm <container>`
 - 删除镜像：`docker rmi <image>:<version>`
 
+## 镜像的导入与导出
+
+- 导出镜像：`docker save -o <filename>.tar <image>:<version>`
+    - 批量导出：`docker save -o <filename>.tar <image1>:<version> <image2>:<version> ...`
+- 导入镜像：`docker load -i <filename>.tar`
+
 ## 附录：Docker in OSLAB
 
 在Lab1及以后，可以通过`make debug`在Docker中调试。具体流程如下：
