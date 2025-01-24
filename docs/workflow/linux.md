@@ -12,7 +12,15 @@
 
 然后报错，告诉我`Permissions for ‘xxx‘ are too open.`
 
-解决办法参见了CSDN上 [这个博客](https://blog.csdn.net/u010571709/article/details/121990664) ，这个博客中未予以指示的步骤均点击`确定`即可。
+解决办法：
+
+- 参见了CSDN上 [这个博客](https://blog.csdn.net/u010571709/article/details/121990664) ，这个博客中未予以指示的步骤均点击`确定`即可。
+- 或者在Windows PowerShell中依次输入：
+    
+    ```shell
+    icacls <密钥路径> /inheritance:r
+    icacls <密钥路径> /grant:r "<用户名>:(R,W)"
+    ```
 
 ### 使用密码
 
