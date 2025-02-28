@@ -95,6 +95,7 @@ docker run -it -v <original data path>:<dest data path> \
 以下所有的`<container>`既可以替换为容器的ID，也可以替换为容器的名字。
 这里的ID是一个哈希码，可以通过`docker ps -a`查看。
 
+- 查看所有镜像：`docker images`
 - 查看所有容器：`docker ps -a`
 - 启动容器：`docker start <container>`
 - 停止容器：`docker stop <container>`

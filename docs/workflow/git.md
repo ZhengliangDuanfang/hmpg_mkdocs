@@ -35,9 +35,6 @@
 如果报错没有权限，需要配置SSH key。参考[CSDN](https://blog.csdn.net/weixin_42310154/article/details/118340458)。
 注意这种方法在后续克隆的时候要采用SSH的方式，而不是直接输入仓库HTTPS地址。
 
-!!! TODO
-    展开此处
-
 - `git remote add <origin-name> <repo-url>` 添加远程仓库地址
   - `<origin-name>` 一般为`origin`，如果有多个远程仓库，可以取其他名字
 - `git remote -v` 查看远程仓库地址
