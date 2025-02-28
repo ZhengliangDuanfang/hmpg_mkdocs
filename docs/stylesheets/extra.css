@@ -1,8 +1,6 @@
-[data-md-color-scheme="default"] {
+:root > * {
     --md-primary-fg-color:        #AE7000;
     --md-default-bg-color: #ffe8a4;
-  }
-
-[data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #845A23;
+    --md-typeset-a-color: #AE7000;
+    --md-accent-fg-color: #dbb24a;
   }

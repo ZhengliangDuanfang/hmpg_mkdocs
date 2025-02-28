@@ -38,50 +38,9 @@ nav:
     - 搭建记录: 'building.md'
 ```
 
-#### 亮暗切换
-参考[链接](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle)
+#### 如何参考其他网站调整CSS
 
-`mkdocs.yml`中theme部分改为如下内容（添加palette部分）：
-
-```
-theme: 
-  name: material
-
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-```
-
-#### 自定义网页顶端与背景颜色
-参考 [链接](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-color-schemes)
-
-`mkdocs.yml`中添加了如下两行：
-```
-extra_css:
-  - stylesheets/extra.css
-```
-`stylesheets/extra.css`中添加：
-```
-[data-md-color-scheme="default"] {
-    --md-primary-fg-color:        #AE7000;
-    --md-default-bg-color: #fbe3b8;
-  }
-
-[data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #845A23;
-  }
-```
-其中，`default`和`slate`两个选项分别与亮暗切换部分的`scheme`值相对应。
+参考 [其他人的博客](https://ronaldln.github.io/MyPamphlet-Blog/2023/10/25/mkdocs-material/)
 
 #### 更换字体
 主要根据[这个链接](https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#regular-font)。  

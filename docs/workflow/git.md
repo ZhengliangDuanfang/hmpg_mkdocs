@@ -36,11 +36,11 @@
 注意这种方法在后续克隆的时候要采用SSH的方式，而不是直接输入仓库HTTPS地址。
 
 - `git remote add <origin-name> <repo-url>` 添加远程仓库地址
-  - `<origin-name>` 一般为`origin`，如果有多个远程仓库，可以取其他名字
+    - `<origin-name>` 一般为`origin`，如果有多个远程仓库，可以取其他名字
 - `git remote -v` 查看远程仓库地址
 - `git push <origin-name> <branch-name>` 推送本地仓库到远程仓库
-  - 第一次推送，需要加上`-u`参数，即`git push -u <origin-name> <branch-name>`
-  - 如果想要本地与远程分支名称不同，可以`git push <remote> <local-branch>:<remote-branch>`
+    - 第一次推送，需要加上`-u`参数，即`git push -u <origin-name> <branch-name>`
+    - 如果想要本地与远程分支名称不同，可以`git push <remote> <local-branch>:<remote-branch>`
 
 - `git pull <origin-name> <branch-name>` 拉取远程分支到本地
 - `git fetch <origin-name> <branch-name>` 从远程仓库拉取最新的分支，但不合并

@@ -16,20 +16,6 @@ theme:
   features:
     - navigation.tabs
 
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-
   icon:
     repo: fontawesome/brands/github
 
@@ -56,7 +42,7 @@ nav:
     - 使用RustDesk和自建服务器实现远程桌面控制: 'misc/rustdesk.md'
     - 不成篇杂项: 'misc/others.md'
   - 兴趣:
-    - 随想与摘抄: 'hobby/opinion.md'
+    - 网站说明: 'hobby/opinion.md'
     - 译鲍照《从拜陵登京岘》诗: 'hobby/rclt.md'
     - 清真年表: 'hobby/zby_chrono.md'
 
