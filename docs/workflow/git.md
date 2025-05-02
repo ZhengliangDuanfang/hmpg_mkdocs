@@ -21,7 +21,8 @@
 
 - `git log` 查看提交历史
 - `git log --oneline` 查看简洁的提交历史
-- `git log --graph --oneline --decorate` 查看分支合并情况
+- `git log --graph` 查看分支合并情况
+- `git log --all` 显示其它分支的信息
 
 ### 回退
 
@@ -44,6 +45,7 @@
 
 - `git pull <origin-name> <branch-name>` 拉取远程分支到本地
 - `git fetch <origin-name> <branch-name>` 从远程仓库拉取最新的分支，但不合并
+- `git checkout -b <new-branch-name> <origin-name>/<branch-name>` 将远程分支拉取到本地并创建一个新的分支
   
 ### deploy key
 
