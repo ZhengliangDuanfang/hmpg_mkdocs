@@ -17,6 +17,12 @@
 - `git merge <branch-name>` 将其他分支合并进当前分支
 - `git branch -d <branch-name>` 删除分支
 
+- 将某个分支上的文件复制到另一分支
+    ```
+    git checkout target-branch
+    git checkout source-branch -- path/to/file1 path/to/file2
+    ```
+
 ### 查看历史
 
 - `git log` 查看提交历史
@@ -27,6 +33,11 @@
 ### 回退
 
 - `git reset --hard <commit-id>` 回退到`commit-id`对应的版本，添加到暂存区但是没有提交到本地仓库的内容以及没有存入暂存区的内容全部彻底消失。`commit-id`可以用`git log`相关指令查看。
+
+### 取消对文件的追踪
+
+- `git rm --cached <file-name>` 取消对文件的追踪，但不删除文件
+- `git rm -r --cached <folder-name>`取消对文件夹的追踪，但不删除文件夹
 
 ## 远程仓库
 
@@ -47,7 +58,14 @@
 - `git fetch <origin-name> <branch-name>` 从远程仓库拉取最新的分支，但不合并
 - `git checkout -b <new-branch-name> <origin-name>/<branch-name>` 将远程分支拉取到本地并创建一个新的分支
   
-### deploy key
+### 为单个服务器赋予操作单个仓库的权限
 
-!!! TODO
-    [https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys)
+1. 生成SSH key，假设私钥位于`/home/user/.ssh/example_key`
+2. GitHub 仓库的 Settings 下找到 Deploy key，添加公钥
+3. 修改`~/.ssh/config`，添加如下内容
+   ```
+   Host github.com-randomname
+        Hostname github.com
+        IdentityFile=/home/user/.ssh/example_key
+   ``` 
+4. 克隆仓库时使用`git clone git@github.com-randomname:OWNER/reponame.git`

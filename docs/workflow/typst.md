@@ -11,6 +11,14 @@
   
 ## 文档
 
+### 页面调整
+```typst
+#set page(
+  paper: "a4",
+  margin: (x: 2cm, y: 2.5cm),
+)
+```
+
 ### 字体调整
 ```typst
 #set text(
