@@ -38,7 +38,8 @@ nav:
     - Git笔记: 'workflow/git.md'
     - LaTeX笔记: 'workflow/latex.md'
     - Typst笔记: 'workflow/typst.md'
-    - VSCode笔记: 'workflow/typst.md'
+    - Touying笔记: 'workflow/touying.md'
+    - VSCode笔记: 'workflow/vscode.md'
   - 杂项: 
     - 本站搭建记录: 'misc/building.md'
     - 使用RustDesk和自建服务器实现远程桌面控制: 'misc/rustdesk.md'

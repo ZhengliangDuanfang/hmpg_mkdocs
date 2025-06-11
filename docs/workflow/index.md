@@ -79,3 +79,12 @@
 ### 植物大战僵尸
 
 [http://lonelystar.org/download.htm](http://lonelystar.org/download.htm) 似乎只能用HTTP访问，不支持HTTPS。
+
+## 目前所能使用GPU的环境
+
+```shell
+conda create -n <name> python=3.9 -y
+conda activate <name>
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+# 这个版本conda install后，numpy版本与torch版本不兼容，导致无法使用
+```

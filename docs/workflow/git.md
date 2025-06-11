@@ -69,3 +69,7 @@
         IdentityFile=/home/user/.ssh/example_key
    ``` 
 4. 克隆仓库时使用`git clone git@github.com-randomname:OWNER/reponame.git`
+
+### 为单个服务器赋予操作所有仓库的权限
+
+参考[GitHub的教程](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)

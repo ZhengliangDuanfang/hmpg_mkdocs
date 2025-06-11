@@ -1,4 +1,4 @@
-目前用下来体验还是很好的。
+目前用下来体验还是很好的。使用Typst制作幻灯片详见[Touying](./touying.md)
 
 ## 资源
 
@@ -8,6 +8,7 @@
 - [Typst Universe](https://typst.app/universe/)
 - [GitHub](https://github.com/typst/typst) 
     - 安装：仅需解压release提供的压缩包，并将文件夹添加到环境变量中即可
+- VSCode插件：Tinymist
   
 ## 文档
 
@@ -15,7 +16,10 @@
 ```typst
 #set page(
   paper: "a4",
-  margin: (x: 2cm, y: 2.5cm),
+  margin: (x: 2cm, y: 2.5cm), // 页边距
+  // margin: (left: 2cm, right: 2cm, top: 2.5cm, bottom: 2.5cm), 
+  // margin: (inside: 2cm, outside: 1cm)
+  // columns: 2 // 分栏
 )
 ```
 
@@ -27,10 +31,6 @@
   stroke: 0.005em,
 )
 ```
-### 行间距调整
-```typst
-#set par(leading: .7em)
-```
 
 ### 文字加粗重载
 ```typst
@@ -40,7 +40,7 @@
 ### 调整页码
 ```typst
 #set page(numbering: "1 / 1")
-#counter(page).update(1)
+#counter(page).update(1) // 页码归1
 ```
 
 ### 使用表格进行图片展示
@@ -64,29 +64,17 @@
 })
 ```
 
-## Touying
-### 使用现有模板
+### 段落开头空两格
 ```typst
-#import "@preview/touying:0.6.1": *
-#import themes.university: *
-
-#show: university-theme.with(
-  aspect-ratio: "4-3",
-  config-info(
-    title: [],
-    subtitle: [],
-    author: [],
-    date: datetime.today(),
-  ),
-  config-colors(
-    primary: rgb("#005fbf"),
-    secondary: rgb("#003f88"), // 求是蓝
-    tertiary: rgb("#005fbf"),
-  )
-)
+#set par(first-line-indent: 2em)
+```
+手动方法：
+```typst
+#h(2em)内容
 ```
 
-### 分栏
+### 调整标题的样式
 ```typst
-#slide(composer: (38%, 62%))[左栏][右栏]
+#show heading.where(level: 3): set block(below: 10pt, above: 10pt) // 上下间距
+#show heading.where(level: 2): set text(size: 16pt, stroke: 0.1em) // 字体
 ```
