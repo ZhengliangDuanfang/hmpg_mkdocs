@@ -78,3 +78,11 @@
 #show heading.where(level: 3): set block(below: 10pt, above: 10pt) // 上下间距
 #show heading.where(level: 2): set text(size: 16pt, stroke: 0.1em) // 字体
 ```
+
+### 添加参考文献
+
+```typst
+#bibliography("ref.bib", title:none)
+```
+
+在正文中使用`@key`的形式引用。
