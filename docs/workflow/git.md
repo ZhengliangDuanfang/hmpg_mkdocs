@@ -54,21 +54,21 @@
     - 第一次推送，需要加上`-u`参数，即`git push -u <origin-name> <branch-name>`
     - 如果想要本地与远程分支名称不同，可以`git push <remote> <local-branch>:<remote-branch>`
 
-- `git pull <origin-name> <branch-name>` 拉取远程分支到本地
+- `git pull <origin-name> <branch-name>` 拉取远程分支到本地，同时合并
 - `git fetch <origin-name> <branch-name>` 从远程仓库拉取最新的分支，但不合并
 - `git checkout -b <new-branch-name> <origin-name>/<branch-name>` 将远程分支拉取到本地并创建一个新的分支
   
 ### 为单个服务器赋予操作单个仓库的权限
 
-1. 生成SSH key，假设私钥位于`/home/user/.ssh/example_key`
+1. 命令行执行`ssh-keygen -t ed25519 -C "<email>"`生成SSH key，将`<email>`替换为真实邮箱。此时生成的SSH key的私钥位于`~/.ssh/id_ed25519`
 2. GitHub 仓库的 Settings 下找到 Deploy key，添加公钥
 3. 修改`~/.ssh/config`，添加如下内容
    ```
    Host github.com-randomname
         Hostname github.com
-        IdentityFile=/home/user/.ssh/example_key
+        IdentityFile=/home/user/.ssh/id_ed25519
    ``` 
-4. 克隆仓库时使用`git clone git@github.com-randomname:OWNER/reponame.git`
+4. 克隆仓库时使用`git clone git@github.com:OWNER/reponame.git`
 
 ### 为单个服务器赋予操作所有仓库的权限
 

@@ -39,6 +39,10 @@
 
 一级标题页也可以选择重载，参见[文档](https://touying-typ.github.io/zh/docs/code-styles#%E7%BA%A6%E5%AE%9A%E4%BC%98%E4%BA%8E%E9%85%8D%E7%BD%AE)
 
-## （TODO）自定义模板
-### 设置进度条宽度
-### 调整页面
+### 添加参考文献
+
+与普通Typst文档一致。一个特性是如果要放到每页的脚注，可以在第一个子标题后添加：
+```typst
+== <第一个标题>
+#show: magic.bibliography-as-footnote.with(bibliography("ref.bib", title: none))
+```
